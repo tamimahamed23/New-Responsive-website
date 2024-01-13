@@ -5,3 +5,74 @@
     font-family: 'Work Sans', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;900&display=swap');
+
+/* header styles start here  */
+
+.btn-primary{
+    background:#ff9003;
+    border-radius: 8px;
+    padding:20px 25px;
+    border:0;
+    color:#fff;
+    font-size:1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+header{
+    background:rgba(255,144,14,0.10);
+    padding:50px 140px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left:30px;
+    font-size:1rem;
+    font-weight: 500;
+}
+
+nav li a{
+    text-decoration: none;
+    color:#424242;
+}
+
+.nav-logo{
+    font-size:2.8rem;
+    font-weight: 700;
+    color:#131313;
+}
+
+/* banner-content style here  */
+
+.banner-content{
+    width:100%;
+    text-align: center;
+    margin:50px auto;
+    
+}
+
+.banner-img > img{
+    width: 100%;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color:#131313;
+}
+.banner-description{
+    color:#727272;
+
+    margin:30px auto;
+}
+.banner{
+    margin:20px auto
+}
