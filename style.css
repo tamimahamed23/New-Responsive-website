@@ -138,6 +138,116 @@ main{
 
 
 
+.facts{
+    width: 80%;
+    margin:auto auto;
+}
+
+.card{
+        
+    border:1px solid #ff9003;
+    width:300px;
+    padding:40px 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin:50px auto;
+}
+
+
+.fact-card{
+    display: flex;
+    justify-content: space-around;
+    gap:30px;
+}
+
+.card-he{
+    font-size:2.5rem;
+    font-weight: 700;
+    color:#131313;
+    padding:5px 0px 5px 0px;
+}
+
+.card-title{
+    font-size:1.25rem;
+    font-weight: 500;
+    color:#727272;
+}
+.facts>h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color:#131313;
+    padding:5px 0px 5px 0px;
+}
+
+
+
+
+.last{
+    width:80%;
+    margin: 0 auto;
+}
+
+.last h3{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color:#131313;
+    padding:5px 0px 5px 0px;
+}
+.last p{
+    text-align: center;
+}
+
+.last-img{
+    display:flex;
+    justify-content:space-evenly;
+    margin:50px auto
+}
+
+
+
+.last-img-div{
+display: grid;
+gap:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive style start here  */
 /* Mobile Devices Style */
 @media screen and (max-width: 576px){
@@ -176,6 +286,26 @@ main{
 
     .teams-img-container{
         padding:50px 10px;
+    }
+
+
+    .fact-card{
+        flex-direction: column;
+    }
+
+
+    .last-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        justify-content: center;
+    }
+
+    .last-img-div>img{
+        width: 156px;
+        
+        padding:10px 20px;
+        margin:auto auto;
     }
 }
 
@@ -225,9 +355,32 @@ main{
     }
 
 
+    .fact-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+
+    .last-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        justify-content: center;
+    }
+
+    .last-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        justify-content: center;
+    }
+
+    .last-img-div>img{
+        width: 156px;
+        
+        padding:10px 20px;
+        margin:auto auto;
+    }
 
 
 }
-
-
