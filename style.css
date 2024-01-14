@@ -216,6 +216,13 @@ gap:20px;
 
 
 
+.feature{
+    width: 80%;
+    margin:50px auto;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
 
 
 
@@ -223,12 +230,41 @@ gap:20px;
 
 
 
+.feature-title{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color:#131313;
+    
+    border-left:2px solid red;
+}
+
+.feature-paragraph{
+    font-size: 1.25rem;
+    font-weight: 500;
+    
+    color:#727272;
+    margin:20px auto;
+}
+
+.card1{
+   
+    width:300px;
+    padding:40px 30px;
+    margin:50px auto;
+    box-shadow: 2px -2px 5px -2px black;;
+}
 
 
 
 
-
-
+.footer{
+    text-align: center;
+    padding:50px;
+    width: 80%;
+    margin:50px  auto;
+    background:rgba(155, 92, 33, 0.897);
+}
 
 
 
@@ -307,6 +343,15 @@ gap:20px;
         padding:10px 20px;
         margin:auto auto;
     }
+
+
+    .feature{
+       flex-direction: column;
+    }
+
+    .feature-img > img{
+        width:100%;
+    }
 }
 
 /* Tablet Devices Style */
@@ -382,5 +427,20 @@ gap:20px;
         margin:auto auto;
     }
 
+
+
+
+    .feature{
+        flex-direction: column;
+     }
+ 
+     .feature-img > img{
+         width:100%;
+     }
+
+     .card-div{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+     }
 
 }
